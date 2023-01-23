@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.texto{
+margin-left: 50px;
+}
+
+p {
+width: 200px;
+height: 200px;
+}
+
+.tabela{
+width: 100px;
+height: 100px;
+align-items: center;
+}
+
+
