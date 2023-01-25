@@ -5,13 +5,15 @@
 }
 
 h1 {
-    text-align: center;
-    margin: 20px;
+
 }
 .texto{
     display: flex;
     flex-direction: column;
     place-items: center;
+    border: solid 1px;
+   
+    
 }
 
 p {
@@ -19,8 +21,9 @@ width: 300px;
 height: 100%;
 }
 
-.tabela{
-    
+.jogo {
+  border: solid 10px;
+ 
 
 } 
  
@@ -30,16 +33,20 @@ height: 100%;
     display: flex;
     width: 100%;
     display: flex;
-    justify-content: center;
-    place-items: center;
-    gap: 30px;
-    height: 100vh;
+    justify-content:center;
+    align-items: center;
+    gap: 200px;
+    border: solid 1px red;
+min-height: 100vh;
+
+    
+    height:500px;
     
 }
 
 body{
-    
-
+    display: grid;
+    place-items: center;
 
 }
 
